@@ -1,0 +1,103 @@
+section{
+    background-color: lavender;
+}.about-section{
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 50px auto;
+
+    padding: 60px;
+
+    background: linear-gradient(
+        to bottom right,
+        white,
+        rgb(245,245,255)
+    );
+
+    border-radius: 25px;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.10);
+}
+
+.about-section h1{
+    text-align: center;
+
+    font-size: 55px;
+
+    color: rgb(75,75,220);
+
+    letter-spacing: 2px;
+
+    margin-bottom: 40px;
+
+    text-transform: uppercase;
+}
+
+.about-section h1::after{
+    content: "";
+
+    display: block;
+
+    width: 120px;
+
+    height: 4px;
+
+    background-color: rgb(100,100,240);
+
+    margin: 15px auto;
+}
+
+.about-image{
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+.about-image img{
+    width: 260px;
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid white;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+
+    transition: 0.3s;
+}
+
+.about-image img:hover{
+    transform: scale(1.05);
+}
+
+.about-section p{
+    background-color: white;
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+    border-radius: 15px;
+
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    text-align: justify;
+
+    color: #333;
+
+    border-left: 5px solid rgb(110,110,240);
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.about-section p:hover{
+    transform: translateY(-5px);
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
+}
