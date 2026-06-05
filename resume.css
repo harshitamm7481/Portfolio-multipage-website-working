@@ -1,0 +1,126 @@
+```css
+.resume-section{
+    width: 85%;
+    max-width: 1200px;
+
+    margin: 50px auto;
+}
+
+.resume-section h1{
+    text-align: center;
+
+    font-size: 55px;
+
+    color: rgb(70,70,210);
+
+    margin-bottom: 40px;
+
+    letter-spacing: 2px;
+}
+
+.resume-section h1::after{
+    content: "";
+
+    display: block;
+
+    width: 120px;
+
+    height: 4px;
+
+    background-color: rgb(110,110,240);
+
+    margin: 15px auto;
+
+    border-radius: 20px;
+}
+
+.resume-block{
+    background: white;
+
+    padding: 30px 40px;
+
+    margin-bottom: 25px;
+
+    border-radius: 18px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+
+    border-left: 6px solid rgb(110,110,240);
+
+    transition: 0.3s ease;
+}
+
+.resume-block:hover{
+    transform: translateY(-4px);
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
+}
+
+.resume-block h2{
+    color: rgb(70,70,210);
+
+    margin-bottom: 20px;
+
+    font-size: 28px;
+
+    border-bottom: 2px solid lavender;
+
+    padding-bottom: 10px;
+}
+
+.resume-block p{
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    color: #333;
+
+    margin-bottom: 12px;
+}
+
+.resume-block strong{
+    color: rgb(60,60,180);
+}
+
+.resume-block ul{
+    padding-left: 25px;
+}
+
+.resume-block li{
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    margin-bottom: 8px;
+
+    color: #333;
+}
+
+.education-table{
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+.education-table th{
+    background-color: rgb(110,110,240);
+
+    color: white;
+
+    padding: 12px;
+}
+
+.education-table td{
+    padding: 12px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+}
+
+.education-table tr:nth-child(even){
+    background-color: rgb(248,248,255);
+}
+```

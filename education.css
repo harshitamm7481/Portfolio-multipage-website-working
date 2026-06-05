@@ -1,0 +1,112 @@
+```css id="t4mgqj"
+.education-section{
+    width: 85%;
+    max-width: 1200px;
+
+    margin: 60px auto;
+}
+
+.education-section h1{
+    text-align: center;
+
+    font-size: 60px;
+
+    color: rgb(70,70,210);
+
+    margin-bottom: 50px;
+
+    letter-spacing: 3px;
+}
+
+.education-section h1::after{
+    content: "";
+
+    display: block;
+
+    width: 140px;
+
+    height: 5px;
+
+    margin: 15px auto;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        to right,
+        rgb(110,110,240),
+        lavender
+    );
+}
+
+.education-block{
+    background: white;
+
+    padding: 35px 45px;
+
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 5px 18px rgba(0,0,0,0.08);
+
+    border-left: 8px solid rgb(110,110,240);
+
+    transition: 0.3s ease;
+}
+
+.education-block:hover{
+    transform: translateY(-5px);
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.12);
+}
+
+.education-block h2{
+    color: rgb(70,70,210);
+
+    font-size: 28px;
+
+    margin-bottom: 18px;
+}
+
+.education-block p{
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    color: #333;
+
+    margin-bottom: 10px;
+}
+
+.education-block strong{
+    color: rgb(70,70,210);
+}
+
+.semester-table{
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+.semester-table th{
+    background-color: rgb(110,110,240);
+
+    color: white;
+
+    padding: 14px;
+}
+
+.semester-table td{
+    padding: 14px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+}
+
+.semester-table tr:nth-child(even){
+    background-color: rgb(248,248,255);
+}
+```
